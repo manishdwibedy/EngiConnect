@@ -1,0 +1,22 @@
+{
+  "name": "engiconnect",
+  "version": "0.1.0",
+  "private": true,
+  "description": "EngiConnect: A collaborative learning platform for engineering students, unifying real-time communication with highly accurate, grounded generative AI problem-solving.",
+  "scripts": {
+    "start": "echo \"Error: no start script specified. Use a development server like Vite or Parcel.\" && exit 1",
+    "build": "echo \"Error: no build script specified. Use a bundler like Vite or Webpack.\" && exit 1",
+    "build:css": "tailwindcss -i ./styles.css -o ./output.css --watch"
+  },
+  "dependencies": {
+    "@google/genai": "^1.29.0",
+    "firebase": "^10.12.2",
+    "highlight.js": "^11.11.1",
+    "marked": "^17.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
